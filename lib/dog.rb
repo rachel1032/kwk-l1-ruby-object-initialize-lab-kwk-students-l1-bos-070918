@@ -1,6 +1,10 @@
 # dog.rb
 
-class Person(name)
-  @name = name
+class Dog
+  
+  def initialize(breed)
+    @breed = breed
+    puts "Mutt"
+  end
+  
 end
-
